@@ -1,6 +1,6 @@
 import React from 'react'
 
-const TopBar = () => {
+const Topbar = () => {
   return (
     <div className="flex items-center justify-between w-full px-8 py-4 bg-[#1A1625]">
       {/* Search Bar */}
@@ -34,4 +34,4 @@ const TopBar = () => {
   );
 };
 
-export default TopBar
+export default Topbar

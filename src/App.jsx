@@ -3,7 +3,7 @@ import Sidebar from "./components/Sidebar/Sidebar.jsx";
 import SidebarLogo from "./components/Sidebar/SidebarLogo.jsx";
 import SidebarMenu from "./components/Sidebar/SidebarMenu.jsx";
 import SidebarFooter from "./components/Sidebar/SidebarFooter.jsx";
-import TopBar from "./components/TopBar.jsx";
+import Topbar from "./components/Topbar.jsx";
 import HeroSection from "./components/HeroSection.jsx";
 import ContinueRow from "./components/ContinueRow.jsx";
 
@@ -16,7 +16,7 @@ const App = () => {
         <SidebarFooter />
       </Sidebar>
      <div className="flex-1 min-h-screen">
-      <TopBar />
+      <Topbar />
       <HeroSection />
       <ContinueRow />
     </div>
